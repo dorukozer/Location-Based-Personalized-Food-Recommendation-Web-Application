@@ -1,0 +1,104 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react-redux/recommended"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "react-hooks",
+    "unused-imports",
+    "react-redux"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "error",
+    "react/no-danger-with-children": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "react/prop-types": 0,
+    "quote-props": 0,
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-nested-ternary": 0,
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "no-console": "warn",
+    "react/destructuring-assignment": 0,
+    "consistent-return": 0,
+    "no-use-before-define": "off",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function"
+      }
+    ],
+    "no-multiple-empty-lines": 2,
+    "newline-before-return": "error",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-unused-vars": "error",
+    "import/no-import-module-exports": 0,
+    "import/extensions": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 120,
+        "ignoreTrailingComments": true,
+        "ignoreComments": true,
+        "ignoreUrls": true
+      }
+    ],
+    "indent": "error",
+    "no-underscore-dangle": 0,
+    "default-param-last": 0,
+    "react-redux/connect-prefer-named-arguments": 2,
+    "react/require-default-props": "error",
+    /* "react/display-name": [2, { "ignoreTranspilerName": true }], */ // todo for new projects
+    "react/jsx-no-bind": "error",
+   /*  "import/no-unused-modules": [1, {"unusedExports": true}] */
+  }
+}

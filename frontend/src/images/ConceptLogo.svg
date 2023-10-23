@@ -1,0 +1,26 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 339 192" width="339" height="192">
+	<title>template</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 72px;fill: #ffffff;font-weight: 200;font-style: italic;font-family: "FiraSansCondensed-UltraLightItalic", "Fira Sans Condensed" } 
+		.t1 { font-size: 72px;fill: #763333;font-weight: 200;font-style: italic;font-family: "FiraSansCondensed-UltraLightItalic", "Fira Sans Condensed" } 
+		.t2 { font-size: 76px;fill: #ffffff;font-weight: 200;font-style: italic;font-family: "FiraSansCondensed-UltraLightItalic", "Fira Sans Condensed" } 
+		.t3 { font-size: 76px;fill: #763333;font-weight: 200;font-style: italic;font-family: "FiraSansCondensed-UltraLightItalic", "Fira Sans Condensed" } 
+	</style>
+	<text id="Nearby?" style="transform: matrix(1,0,0,1,190,142.64)" >
+		<tspan x="-111.1" y="0" class="t0">Nearby?</tspan><tspan  y="0" class="t0">
+</tspan>
+	</text>
+	<text id="Nearby?" style="transform: matrix(1,0,0,1,188.001,142.992)" >
+		<tspan x="-111.1" y="0" class="t1">Nearby?</tspan><tspan  y="0" class="t1">
+</tspan>
+	</text>
+	<text id="What's " style="transform: matrix(1,0,0,1,140,88.04)" >
+		<tspan x="-106.4" y="0" class="t2">W</tspan><tspan  y="0" class="t2">h</tspan><tspan  y="0" class="t2">a</tspan><tspan  y="0" class="t2">t</tspan><tspan  y="0" class="t2">'</tspan><tspan  y="0" class="t2">s</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">
+</tspan>
+	</text>
+	<text id="What's " style="transform: matrix(1,0,0,1,137.704,88.055)" >
+		<tspan x="-106.4" y="0" class="t3">W</tspan><tspan  y="0" class="t3">h</tspan><tspan  y="0" class="t3">a</tspan><tspan  y="0" class="t3">t</tspan><tspan  y="0" class="t3">'</tspan><tspan  y="0" class="t3">s</tspan><tspan  y="0" class="t3"> </tspan><tspan  y="0" class="t3">
+</tspan>
+	</text>
+</svg>
